@@ -1,0 +1,125 @@
+/*general, header y footer*/
+header{
+    background-color: #b20b0b;
+    padding-bottom: 10px;
+}
+ul#nav{
+    font-family: 'lucida console';
+    list-style-type: none;
+     margin: 1;
+     padding: 1;
+     color: black;
+}
+li#nav{
+    display: inline;
+    padding: 10px;
+    background-color: black;
+}
+div#nav{
+    text-align: center;
+}
+a#nav:link{
+    color: beige;
+    text-decoration: none;
+}
+a#nav:visited{
+    color: beige;
+    text-decoration: none;
+}
+footer{
+    background-color: #b20b0b;
+    padding: 7px;
+    clear: both;
+
+}
+p#footer{
+    font-family:'Helvetica';
+    padding-left: 5px;
+    color: beige;
+    font-weight: bold;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+/*inicio*/
+img#coche1{
+    float: left;
+    width: 50%;
+    height: auto;
+    display: block;
+    padding:10px;
+    
+}
+
+div#bienvenida{
+    width: 40%;
+    float: right;
+    text-align: justify;
+    margin: 40px 40px;
+    margin-right: 60px;
+    
+}
+img#logos{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+/*servicios*/
+img#fotocoche{
+    width: 400px;
+    height: 600px;
+}
+table{
+    margin:0 auto;
+    width:60%;
+    text-align: center;
+    
+}
+th{
+    font-size: 40px;
+    padding:4px 10px;
+}
+td{
+    padding:4px 10px;
+}
+
+/*contacto*/
+div#mapa{
+ float: left;
+ width: 50%;
+ padding: 20px;
+}
+div#chat{
+    float: right;
+    width: 40%;
+}
+img#chatbot{
+    width: 80%;
+    border-style: solid ;
+    border-color: #b20b0b;
+}
+/*conocenos*/
+div#conocenosizq{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    padding: 20px;
+}
+div#conocenosder{
+    float: right;
+    width: 50%;
+}
+img#fotoantigua{
+    width: 70%;
+    height:auto;
+}
+/*registro*/
+form{
+    margin: 30px;
+    padding: 30px;
+    border-style: solid ;
+    border-color: #b20b0b;
+}
